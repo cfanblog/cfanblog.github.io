@@ -4,10 +4,12 @@ author: Cotes Chung
 date: 2019-08-09 20:55:00 +0800
 categories: [Blogging, Tutorial]
 tags: [getting started]
-pin: true
+pin: false
 ---
 
 ## Prerequisites
+
+![有帮助的截图]({{ site.url }}/assets/avatar.PNG)
 
 Follow the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll` and `Bundler`.
 
