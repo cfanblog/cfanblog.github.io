@@ -4,7 +4,7 @@
 
 set -eu
 
-PAGES_BRANCH="gh-pages"
+PAGES_BRANCH="release-branch"
 
 _no_branch=false
 _backup_dir="$(mktemp -d)"
