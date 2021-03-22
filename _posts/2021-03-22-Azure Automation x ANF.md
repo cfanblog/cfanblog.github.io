@@ -20,7 +20,7 @@ WVDのシナリオを例としてあげるのならば、以下のような運�
 
 現時点、Azure NetApp Files ではボリューム、容量プールサイズのスケジューリング機能が提供していません。一方で、サイズ変更の PowerShell のコマンド提供されていますので、Azure Automation を利用すれば、簡単にサイズの自動化を実現できます。実装方法は以下にご紹介します。
 
-
+<br>
 
 ## 2.Automation アカウント 作成
 1. Azure Portal で Automation アカウント を検索し、「Automation アカウント」を選択
@@ -30,7 +30,7 @@ WVDのシナリオを例としてあげるのならば、以下のような運�
 2. 「+作成」をクリックし、右側に表示されている設定画面で、アカウントの情報を記入し、アカウント作成します
 ![2.png]({{ "/assets/blog/2021-03-22-Azure_Automation_ANF/2.png" }})
 
-
+<br>
 
 ## 3.Az.Accounts、 Az.NetAppFiles モジュールを追加
 Automation が Azure NetApp Files のコマンドを実行させるため、必要な PowerShell モジュールをAz.Accounts、 Az.NetAppFilesインストールする必要がります
@@ -42,6 +42,7 @@ Automation が Azure NetApp Files のコマンドを実行させるため、必�
 ![4.png]({{ "/assets/blog/2021-03-22-Azure_Automation_ANF/4.png" }})
 ![5.png]({{ "/assets/blog/2021-03-22-Azure_Automation_ANF/5.png" }})
 
+<br>
 
 ## 4.Runbook 作成
 1. 「Runbook」⇒「＋Runbookの作成」をクリックし、Runbookの種類を「PowerShell」に指定した上、Runbook を作成します
@@ -53,7 +54,8 @@ Automation が Azure NetApp Files のコマンドを実行させるため、必�
 3. Runbookに定期的に実行したいPowerShellスクリプトを追加し、「保存」をクリックします。
 
 ボリュームサイズを増やす例：
-※2021年3月時点、PowerShellで指定するボリューム、容量プールサイズの単位は byte になりますので、設定値を間違えないようにご注意ください。
+
+**※2021年3月時点、PowerShellで指定するボリューム、容量プールサイズの単位は byte になりますので、設定値を間違えないようにご注意ください。**
 
 https://docs.microsoft.com/en-us/powershell/module/az.netappfiles/update-aznetappfilespool?view=azps-5.6.0
 https://docs.microsoft.com/en-us/powershell/module/az.netappfiles/update-aznetappfilesvolume?view=azps-5.6.0
@@ -85,12 +87,14 @@ Update-AzNetAppFilesVolume -ResourceGroupName "リソースグループ名" -l "
 4.「テスト ウィンドウ」でRunbookをテストし、問題がなければ「公開」をクリックします。
 ![8.png]({{ "/assets/blog/2021-03-22-Azure_Automation_ANF/8.png" }})
 
+<br>
 
 ## 5.Runbook のスケジュール設定
 1. Runbookのポータルで「スケジュール」⇒「＋スケジュールの追加」をクリックし、スケジュールを指定し、「OK」をクリックします。
-   ※例のようにパラメータはRunbook内で記載している場合は、「パラメータと実行設定」を設定しなくても問題がありません。
+※例のようにパラメータはRunbook内で記載している場合は、「パラメータと実行設定」を設定しなくても問題がありません。
 ![9.png]({{ "/assets/blog/2021-03-22-Azure_Automation_ANF/9.png" }})
 
+<br>
 
 ## 6.Runbook の実行状況を確認
 1. Runbookのポータルで「ジョブ」をクリックし、右側に表示されているジョブ詳細画面でRunbookの自動実行状況を確認できます。
