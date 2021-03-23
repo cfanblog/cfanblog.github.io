@@ -25,13 +25,14 @@ WVDのシナリオを例としてあげるのならば、以下のような運�
 
 # 2. Automation アカウント 作成
 1. Azure Portal で Automation アカウント を検索し、「Automation アカウント」を選択
-![1.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/1.png" }})
 
+<div style="text-align: left"><img src="/assets/blog/2021-03-22-Azure_Automation_with_ANF/1.png" ></div>
+<br>
 
 2. 「+作成」をクリックし、右側に表示されている設定画面で、アカウントの情報を記入し、アカウント作成します
-![2.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/2.png" }})
-
+<div style="text-align: left"><img src="/assets/blog/2021-03-22-Azure_Automation_with_ANF/2.png" ></div>
 <br>
+
 
 # 3. Az.Accounts、 Az.NetAppFiles モジュールを追加
 Automation が Azure NetApp Files のコマンドを実行させるため、必要な PowerShell モジュールをAz.Accounts、 Az.NetAppFilesインストールする必要がります
@@ -39,18 +40,23 @@ Automation が Azure NetApp Files のコマンドを実行させるため、必�
 1. Automation アカウントを開き、「モジュール」⇒「ギャラリーを参照」をクリックし、以下の順番でモジュールを追加
 - Az.Accounts 
 - Az.NetAppFiles
-![3.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/3.png" }})
-![4.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/4.png" }})
-![5.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/5.png" }})
-
+<div style="text-align: left"><img src="/assets/blog/2021-03-22-Azure_Automation_with_ANF/3.png" ></div>
+<br>
+<div style="text-align: left"><img src="/assets/blog/2021-03-22-Azure_Automation_with_ANF/4.png" ></div>
+<br>
+<div style="text-align: left"><img src="/assets/blog/2021-03-22-Azure_Automation_with_ANF/5.png" ></div>
 <br>
 
 # 4. Runbook 作成
 1. 「Runbook」⇒「＋Runbookの作成」をクリックし、Runbookの種類を「PowerShell」に指定した上、Runbook を作成します
-![6.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/6.png" }})
+<div style="text-align: left"><img src="/assets/blog/2021-03-22-Azure_Automation_with_ANF/6.png" ></div>
+<br>
+
 
 2. 作成したRunbook画面で「編集」をクリックし、編集画面を表示させます。
-![7.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/7.png" }})
+<div style="text-align: left"><img src="/assets/blog/2021-03-22-Azure_Automation_with_ANF/7.png" ></div>
+<br>
+
 
 3. Runbookに定期的に実行したいPowerShellスクリプトを追加し、「保存」をクリックします。
 
@@ -132,20 +138,21 @@ QosType                 : Auto
 ```
 
 4.「テスト ウィンドウ」でRunbookをテストし、問題がなければ「公開」をクリックします。
-![8.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/8.png" }})
-
+<div style="text-align: left"><img src="/assets/blog/2021-03-22-Azure_Automation_with_ANF/8.png" ></div>
 <br>
+
 
 # 5. Runbook のスケジュール設定
 1. Runbookのポータルで「スケジュール」⇒「＋スケジュールの追加」をクリックし、スケジュールを指定し、「OK」をクリックします。
 ※例のようにパラメータはRunbook内で記載している場合は、「パラメータと実行設定」を設定しなくても問題がありません。
-![9.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/9.png" }})
-
+<div style="text-align: left"><img src="/assets/blog/2021-03-22-Azure_Automation_with_ANF/9.png" ></div>
 <br>
+
 
 # 6. Runbook の実行状況を確認
 1. Runbookのポータルで「ジョブ」をクリックし、右側に表示されているジョブ詳細画面でRunbookの自動実行状況を確認できます。
-![10.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/10.png" }})
+<div style="text-align: left"><img src="/assets/blog/2021-03-22-Azure_Automation_with_ANF/10.png" ></div>
+<br>
 
 
 **※リンク先などを含む本情報の内容は、作成日時点でのものであり、予告なく変更される場合がございますので、ご了承ください。**
