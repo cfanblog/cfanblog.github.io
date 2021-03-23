@@ -15,9 +15,9 @@ timezone: Asia/Tokyo
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: CFANBLOG               # the main title
+title: CfanBlog               # the main title
 
-tagline: Azure Blog   # it will display as the sub-title
+tagline: Update and tips for Azure and Azure NetApp Files   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Azure NetApp Files
@@ -34,15 +34,15 @@ twitter:
   username: twitter_username            # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: Yi Hu                # it will shows as the copyright owner in Footer
+  email: hyhuyiblog@gmail.com           # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
     - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - www.linkedin.com/in/hyhuyi
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
