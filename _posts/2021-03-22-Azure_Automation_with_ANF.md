@@ -1,12 +1,12 @@
 ---
-title: Azure Automation による Azure NetApp Files ボリューム伸縮自動化
+title: Azure Automation による Azure NetApp Files ボリュームサイズ変更自動化
 author: Yi Hu
 date: 2021-03-22 00:00:00 +0900
 categories: [Azure NetApp Files, Azure Automation]
 tags: [Azure NetApp Files, Azure Automation]
 ---
 
-## 1.概要
+# 1. 概要
 Azure NetApp Files は NetApp社業界トップレベルのストレージテクノロジーを活用したベアメタルサービスであり、高性能、高可用性が求められているワークロードに最適なストレージサービスとなります。
 
 Azure NetApp Files の最も特徴的な特性は、ダウンタイムなしでボリュームサイズ伸縮し、ボリュームのスループットを調整できることであり、ワークロードの負荷に合わせて、ボリュームサイズを調整する運用により、ストレージの性能、コストの最適化を同時に図ることができます。
@@ -23,7 +23,7 @@ WVDのシナリオを例としてあげるのならば、以下のような運�
 
 <br>
 
-## 2.Automation アカウント 作成
+# 2. Automation アカウント 作成
 1. Azure Portal で Automation アカウント を検索し、「Automation アカウント」を選択
 ![1.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/1.png" }})
 
@@ -33,7 +33,7 @@ WVDのシナリオを例としてあげるのならば、以下のような運�
 
 <br>
 
-## 3.Az.Accounts、 Az.NetAppFiles モジュールを追加
+# 3. Az.Accounts、 Az.NetAppFiles モジュールを追加
 Automation が Azure NetApp Files のコマンドを実行させるため、必要な PowerShell モジュールをAz.Accounts、 Az.NetAppFilesインストールする必要がります
 
 1. Automation アカウントを開き、「モジュール」⇒「ギャラリーを参照」をクリックし、以下の順番でモジュールを追加
@@ -45,7 +45,7 @@ Automation が Azure NetApp Files のコマンドを実行させるため、必�
 
 <br>
 
-## 4.Runbook 作成
+# 4. Runbook 作成
 1. 「Runbook」⇒「＋Runbookの作成」をクリックし、Runbookの種類を「PowerShell」に指定した上、Runbook を作成します
 ![6.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/6.png" }})
 
@@ -106,8 +106,8 @@ Update-AzNetAppFilesPool -ResourceGroupName "リソースグループ名" -l "�
 
 **※2021年3月時点、PowerShellで指定するボリューム、容量プールサイズの単位は byte になりますので、設定値を間違えないようにご注意ください。**
 
-https://docs.microsoft.com/en-us/powershell/module/az.netappfiles/update-aznetappfilespool?view=azps-5.6.0
-https://docs.microsoft.com/en-us/powershell/module/az.netappfiles/update-aznetappfilesvolume?view=azps-5.6.0
+<https://docs.microsoft.com/en-us/powershell/module/az.netappfiles/update-aznetappfilespool?view=azps-5.6.0>
+<https://docs.microsoft.com/en-us/powershell/module/az.netappfiles/update-aznetappfilesvolume?view=azps-5.6.0>
 
 ボリューム、容量プールのサイズは以下のコマンドで確認できます。
 
@@ -136,14 +136,14 @@ QosType                 : Auto
 
 <br>
 
-## 5.Runbook のスケジュール設定
+# 5. Runbook のスケジュール設定
 1. Runbookのポータルで「スケジュール」⇒「＋スケジュールの追加」をクリックし、スケジュールを指定し、「OK」をクリックします。
 ※例のようにパラメータはRunbook内で記載している場合は、「パラメータと実行設定」を設定しなくても問題がありません。
 ![9.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/9.png" }})
 
 <br>
 
-## 6.Runbook の実行状況を確認
+# 6. Runbook の実行状況を確認
 1. Runbookのポータルで「ジョブ」をクリックし、右側に表示されているジョブ詳細画面でRunbookの自動実行状況を確認できます。
 ![10.png]({{ "/assets/blog/2021-03-22-Azure_Automation_with_ANF/10.png" }})
 

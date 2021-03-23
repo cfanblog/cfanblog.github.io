@@ -15,7 +15,7 @@ timezone: Asia/Tokyo
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: CfanBlog               # the main title
+title: CFAN blog              # the main title
 
 tagline: Update and tips for Azure and Azure NetApp Files   # it will display as the sub-title
 

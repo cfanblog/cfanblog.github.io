@@ -3,6 +3,4 @@ title: About
 icon: fas fa-info
 order: 4
 ---
-
-
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+本ブログでは、Azure、Azure NetApps Files のアップデート、ティップス不定期的に更新します～
