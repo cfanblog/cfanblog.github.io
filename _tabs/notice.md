@@ -1,5 +1,5 @@
 ---
-title: 注意事項
+title: ご注意事項
 icon: fa fa-bullhorn
 order: 5
 ---
