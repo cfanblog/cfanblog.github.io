@@ -21,8 +21,6 @@ WVDのシナリオを例としてあげるのならば、以下のような運�
 現時点、Azure NetApp Files ではボリューム、容量プールの自動サイズ変更機能が提供していません。一方で、サイズ変更用の PowerShell のコマンド提供されていますので、Azure Automation を利用すれば、スケジューリングを設定し簡単にサイズの自動化を実現できます。
 実装方法は以下にご紹介します。
 
-<br>
-
 # 2. Automation アカウント 作成
 1. Azure Portal で Automation アカウント を検索し、「Automation アカウント」を選択
 
@@ -35,7 +33,7 @@ WVDのシナリオを例としてあげるのならば、以下のような運�
 
 
 # 3. Az.Accounts、 Az.NetAppFiles モジュールを追加
-Automation が Azure NetApp Files のコマンドを実行させるため、必要な PowerShell モジュールをAz.Accounts、 Az.NetAppFilesインストールする必要がります
+Runbook で Azure NetApp Files のコマンドを実行できるようにするため、必要な PowerShell モジュールをAz.Accounts、 Az.NetAppFilesインストールする必要がります
 
 1. Automation アカウントを開き、「モジュール」⇒「ギャラリーを参照」をクリックし、以下の順番でモジュールを追加
 - Az.Accounts 
