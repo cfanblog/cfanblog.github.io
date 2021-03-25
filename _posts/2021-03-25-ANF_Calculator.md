@@ -6,10 +6,6 @@ categories: [Azure NetApp Files]
 tags: [Azure NetApp Files, Troubleshooting]
 ---
 
-[ANF パフォーマンス計算ツール]({% link /assets/html/ANFCalc/ANFCalc.html %})
-
-スループットなどの性能要件をしたうで、このツールで簡単必要ボリューム、容量プールサイズ、課金を計算できます。
-
 <div style="text-align: left"><img src="/assets/blog/2021-03-25-ANF_Calculator/1.png" ></div>
 <br>
 
