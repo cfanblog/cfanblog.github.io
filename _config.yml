@@ -15,7 +15,7 @@ timezone: Asia/Tokyo
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Techloudy             # the main title
+title: Techloud             # the main title
 
 tagline: Update and tips for Azure and Azure NetApp Files   # it will display as the sub-title
 
@@ -23,7 +23,7 @@ description: >-                        # used by seo meta and the atom feed
   Azure NetApp Files
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://techloudy.com/'
+url: 'https://techloud.com/'
 
 author: Yi Hu                 # change to your full name
 
