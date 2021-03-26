@@ -1,5 +1,5 @@
 ---
-title: Windows Severで ANF NFS ヴォリュームを利用
+title: Windows Severで ANF NFS ヴォリュームを利用する方法
 author: Yi Hu
 date: 2021-03-24 00:00:00 +0900
 categories: [Azure NetApp Files]
