@@ -1,5 +1,5 @@
 ---
-title: Azure NetApp Files リンク集
+title: Azure NetApp Files ドキュメント リンク集
 author: Yi Hu
 date: 2021-03-26 00:00:00 +0900
 categories: [Azure NetApp Files]
