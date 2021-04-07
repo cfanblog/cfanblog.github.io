@@ -13,7 +13,7 @@ tags: [Azure NetApp Files, Troubleshooting]
 
 原因としては、リソースを作成する時に、タイミングによってリソースプロバイダーの登録が実施されないことがあるからです。これは想定されている動作のため、公開ドキュメントの紹介の通り、リソースプロバイダー（RP）の追加作業が初回目のデプロイの際に必要作業として紹介されています。
 
-<https://docs.microsoft.com/ja-jpjp/azure/azure-netapp-files/azure-netapp-files-quickstart-set-up-account-create-volumes?tabs=azure-portal#register-for-azure-netapp-files-and-netapp-resource-provider>
+<https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/azure-netapp-files-quickstart-set-up-account-create-volumes?tabs=azure-portal#register-for-azure-netapp-files-and-netapp-resource-provider>
 
 
 # 2. 対処方法
