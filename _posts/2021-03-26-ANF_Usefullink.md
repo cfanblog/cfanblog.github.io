@@ -47,7 +47,7 @@ Azure NetApp Files よく使われているリンク集
 [**Azure NetApp Files x MSIX App Attach 設定手順**](https://techcommunity.microsoft.com/t5/windows-virtual-desktop/setting-up-azure-netapp-files-for-msix-app-attach-step-by-step/m-p/1990021)  
 
 ## 4.2 SAP
-[**SAP x ANF 設計注意事項**](https://docs.microsoft.com/ja-jp/azure/virtual-machines/workloads/sap/hana-vm-operations-netapp)
+[**SAP x ANF 設計注意事項**](https://docs.microsoft.com/ja-jp/azure/virtual-machines/workloads/sap/hana-vm-operations-netapp)  
 [**Deploy SAP AnyDB (Oracle 19c) with Azure NetApp Files**](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/deploy-sap-anydb-oracle-19c-with-azure-netapp-files/ba-p/2064043)  
 
 ## 4.3 HPC、EDA
