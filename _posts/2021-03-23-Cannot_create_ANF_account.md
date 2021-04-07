@@ -27,7 +27,7 @@ Register-AzResourceProvider -ProviderNamespace Microsoft.NetApp
 ```
 
 Azure CLI
-```Azure CLI
+```AzureCLI
 az provider register --namespace Microsoft.NetApp --wait
 ```
 
