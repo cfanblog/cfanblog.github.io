@@ -9,7 +9,8 @@ pin: true
 Azure NetApp Files よく使われているリンク集
 
 # 1. 最新情報
-[**（New）ボリューム ハード クオータ**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/volume-hard-quota-guidelines)
+[**（New）ボリューム ハード クオータ**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/volume-hard-quota-guidelines)  
+[**Azure NetApp Files の新機能**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/whats-new)
 
 # 2. Azure NetApp Files 仕様
 [**Azure NetApp Files のサービス レベル**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/azure-netapp-files-service-levels)  
@@ -54,6 +55,9 @@ Azure NetApp Files よく使われているリンク集
 [**Performance Best Practice- EDA workloads on Azure NetApp Files**](https://techcommunity.microsoft.com/t5/azure-global/performance-best-practice-eda-workloads-on-azure-netapp-files/ba-p/2119979#)  
 
 ## 4.3 Oracle
+[**Oracle Database での Azure NetApp Files 利用のメリット**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-oracle-database)  
+
+## 4.3 SQL
 [**Oracle Database での Azure NetApp Files 利用のメリット**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-oracle-database)  
 
 <br>
