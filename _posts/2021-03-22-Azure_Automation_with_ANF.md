@@ -108,12 +108,12 @@ Update-AzNetAppFilesVolume -ResourceGroupName "リソースグループ名" -l "
 Update-AzNetAppFilesPool -ResourceGroupName "リソースグループ名" -l "リージョン" -AccountName "ANFアカウント名" -PoolName "容量プール名" -PoolSize "ボリュームサイズ(バイト)" -QosType "Auto"
 ```
 
-**※2021年3月時点、PowerShellで指定するボリューム、容量プールサイズの単位は byte になりますので、設定値を間違えないようにご注意ください。**
+**※2021年3月時点、PowerShellで指定するボリューム、容量プールサイズの単位は byte になりますので、サイズの設定値を間違えないようにご注意ください。**
 
-<https://docs.microsoft.com/en-us/powershell/module/az.netappfiles/update-aznetappfilespool?view=azps-5.6.0>
+<https://docs.microsoft.com/en-us/powershell/module/az.netappfiles/update-aznetappfilespool?view=azps-5.6.0>  
 <https://docs.microsoft.com/en-us/powershell/module/az.netappfiles/update-aznetappfilesvolume?view=azps-5.6.0>
 
-ボリューム、容量プールのサイズは以下のコマンドで確認できます。
+ボリューム、容量プールのサイズは以下のコマンドの出力結果から確認できます。
 
 Get-AzNetAppFilesPool
 Get-AzNetAppFilesVolume
