@@ -58,7 +58,7 @@ Azure NetApp Files よく使われているリンク集
 [**Oracle Database での Azure NetApp Files 利用のメリット**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-oracle-database)  
 
 ## 4.3 SQL
-[**Oracle Database での Azure NetApp Files 利用のメリット**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-oracle-database)  
+[**SQL Database での Azure NetApp Files 利用のメリット**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-sql-server)  
 
 <br>
 <br>
