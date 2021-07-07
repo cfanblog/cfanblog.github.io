@@ -9,7 +9,7 @@ pin: true
 Azure NetApp Files よく使われているリンク集
 
 # 1. 最新情報
-[**（New）ボリューム ハード クオータ**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/volume-hard-quota-guidelines)  
+[**ボリューム ハード クオータ**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/volume-hard-quota-guidelines)  
 [**Azure NetApp Files の新機能**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/whats-new)
 
 # 2. Azure NetApp Files 仕様
