@@ -9,7 +9,7 @@ pin: true
 Azure NetApp Files よく使われているリンク集
 
 # 1. 最新情報
-[**ボリューム ハード クオータ**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/volume-hard-quota-guidelines)  
+[**SMB 継続的可用性 (CA) 共有による FSLogix ユーザー プロファイル コンテナーのサポート**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/whats-new#april-2021)  
 [**Azure NetApp Files の新機能**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/whats-new)
 
 # 2. Azure NetApp Files 仕様
