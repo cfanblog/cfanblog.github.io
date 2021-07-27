@@ -21,7 +21,7 @@ Write 操作のスループットは、VM レベルのネットワーク帯域�
 
 利用コストの計算例は、公開ドキュメントに公開されていますので、ご参考ください。  
 
-<div style="text-align: left"><img src="/assets/blog/2021-07-15-ANF_SQL_BestPractice/1.png" ></div>
+<div style="text-align: left"><img src="/assets/blog/2021-07-15-ANF_SQL_BestPractice1/1.png" ></div>
 <br>
 
 [**SQL Server のデプロイに Azure NetApp Files を使用する利点**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-sql-server)
@@ -43,7 +43,7 @@ ANF は NAS のため、ストレージへのアクセス全部 VM の NIC を�
 確認方法はこのドキュメントにて紹介されています。  
 <br>
 [**Windows VM にイーサネット コントローラーがインストールされていることを確認する**](https://docs.microsoft.com/ja-jp/azure/virtual-network/create-vm-accelerated-networking-powershell#confirm-the-ethernet-controller-is-installed-in-the-windows-vm)
-<div style="text-align: left"><img src="/assets/blog/2021-07-15-ANF_SQL_BestPractice/2.png" ></div>
+<div style="text-align: left"><img src="/assets/blog/2021-07-15-ANF_SQL_BestPractice1/2.png" ></div>
 <br>
 
 ## 2.3. SMB マルチチャネルの設定  
@@ -52,7 +52,7 @@ CPU の性能余裕がありましたら、より高い SMB マルチチャネ�
 設定は方法は以下のドキュメントにて紹介されています。  
 <br />
 [**SMB マルチチャネルのパフォーマンスはどのようなものですか?**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/azure-netapp-files-smb-performance#whats-the-performance-like-for-smb-multichannel)
-<div style="text-align: left"><img src="/assets/blog/2021-07-15-ANF_SQL_BestPractice/3.png" ></div>
+<div style="text-align: left"><img src="/assets/blog/2021-07-15-ANF_SQL_BestPractice1/3.png" ></div>
 <br>
 
 ## 2.4. Large MTUの設定
