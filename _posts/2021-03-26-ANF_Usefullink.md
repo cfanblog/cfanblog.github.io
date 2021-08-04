@@ -30,6 +30,10 @@ Azure NetApp Files よく使われているリンク集
 [**SMB ボリューム作成手順**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)  
 [**NFS ボリューム作成手順**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/azure-netapp-files-create-volumes)  
 
+[**Linux NFS マウント オプションのベスト プラクティス**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/performance-linux-mount-options)  
+[**Linux コンカレンシーのベスト プラクティス - セッション スロットとスロット テーブル エントリ**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/performance-linux-concurrency-session-slots)  
+[**SMB のパフォーマンスのベスト プラクティス*](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/azure-netapp-files-smb-performance)  
+
 [**Az.NetAppFiles PowerShellモジュール**](https://docs.microsoft.com/en-us/powershell/module/az.netappfiles/?view=azps-5.7.0)  
 
 # 3. Azure NetApp Files Preview 機能
