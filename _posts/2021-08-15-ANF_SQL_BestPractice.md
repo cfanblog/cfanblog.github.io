@@ -1,7 +1,7 @@
 ---
 title: Microsoft SQL on Azure NetApp Files の性能考慮事項
 author: Yi Hu
-date: 2021-07-14 00:00:00 +0900
+date: 2021-08-15 00:00:00 +0900
 categories: [Azure NetApp Files]
 tags: [Azure NetApp Files, SQL]
 ---
