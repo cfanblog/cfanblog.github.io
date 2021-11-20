@@ -9,7 +9,7 @@ pin: true
 Azure NetApp Files よく使われているリンク集
 
 # 1. 最新情報
-[**New! Azure NetApp Files Backup**](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-introduction)  
+[**New!! Azure NetApp Files Backup**](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-introduction)  
 [**Azure NetApp Files の新機能**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/whats-new)
 
 # 2. Azure NetApp Files 仕様
