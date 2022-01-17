@@ -10,6 +10,9 @@ Azure NetApp Files よく使われているリンク集
 
 # 1. 最新情報
 [**New!! Azure NetApp Files Backup**](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-introduction)  
+[**New!! Application Volume Group**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/application-volume-group-introduction)  
+[**New!! 単一ファイル スナップショット復元**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/snapshots-restore-file-single)  
+[**New!! NFS プロトコル バージョンの変換**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/convert-nfsv3-nfsv41)  
 [**Azure NetApp Files の新機能**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/whats-new)
 
 # 2. Azure NetApp Files 仕様
