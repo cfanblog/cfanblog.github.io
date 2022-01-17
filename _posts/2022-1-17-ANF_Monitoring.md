@@ -9,15 +9,12 @@ tags: [Azure NetApp Files, Azure Monitor]
 
 Azure NetApp Files は Azure基盤と完全に統合しているため、他のAzureサービスと同様に、Azure Monitorを利用して簡単監視することができます。  
 
-本記事は、 Azure NetApp Files では一般的に監視される項目について解説していきます。
-
+本記事は、 Azure NetApp Files では一般的に監視される項目について解説していきます。  
 
 # 1. サービス正常性監視
 Azure NetApp files は Azure の他のサービスと同様に、Azure Monitor の 「サービス正常性」ページにて ANF リソースの正常性状態（障害、メンテナンスなど）を確認できます。  
 
 また、正常性アラートを利用して、正常性問題の通知を行うことも可能です。  
-
-[**Azure portal を使用してサービスの通知でアクティビティ ログ アラートを作成するト**](https://docs.microsoft.com/ja-jp/azure/service-health/alerts-activity-log-service-notifications-portal)
 
 # 2. 容量監視
 2021年5月までには、ボリュームのクオータサイズはソフトクオータであり、ボリュームの空き容量がなくとしても、ボリュームそして容量プールが自動的に成長する仕組みとなっていました。  
