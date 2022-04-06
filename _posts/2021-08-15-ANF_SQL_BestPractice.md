@@ -79,6 +79,7 @@ SMB CA による性能向上がありませんが、可用性の観点で、SQL�
 [**既存の SMB ボリュームを変換して継続的可用性を使用する**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/convert-smb-continuous-availability?WT.mc_id=Portal-Microsoft_Azure_Health)
 
 
+
 **※リンク先などを含む本情報の内容は、作成日時点でのものであり、予告なく変更される場合がございますので、ご了承ください。**
 
 [^ga-filters]: [Google Analytics Core Reporting API: Filters](https://developers.google.com/analytics/devguides/reporting/core/v3/reference#filters)
