@@ -9,7 +9,7 @@ tags: [Azure NetApp Files, TroubleshootingGuide]
 Azure NetApp Files はベアメタルストレージサービスであり、委任サブネットなど、独自のネットワーク構成を持っています。サービスの仕様を考慮せず、SMB ボリューム の作成が失敗したケースが多いかと思いますので、本記事で作成失敗時のチェックリストをご紹介します。
 
 # 2. Azure NetApp Files SMB ボリューム作成失敗時のチェックリスト
-## **2.1 ネットワーク設定まわりのチェックリスト** 
+## **2.1 ネットワーク設定まわりのチェックリスト*** 
 1. ANF 委任サブネット は **/28** 以上のアドレス空間が割り当てられていますか  
 原因：ANF 委任サブネット は少なくとも /28 のアドレス空間が必要（[**ANF委任サブネット**](https://docs.microsoft.com/ja-jp/azure/azure-netapp-files/azure-netapp-files-delegate-subnet)）
 
